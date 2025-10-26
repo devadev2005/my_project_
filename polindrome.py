@@ -6,7 +6,7 @@ def polindrome(func):
         if dec == dec[::-1]:
               return "this is polidrome"
         else:
-            return 'not polindrome'
+            return 'Its not a polindrome'
     return pol    
         
 
@@ -19,5 +19,6 @@ def polindrome(func):
 @polindrome
 def polin(word):
     return word
+
 
 print(polin("dad"))
