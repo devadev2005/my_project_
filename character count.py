@@ -8,9 +8,10 @@ for i in n:
         count[i]=1
 print(count)
 printed=set()        
-for char ,frq in count.items():
+for char , frq in count.items():
     if i not in printed:
          print(f"{char}:{frq}")
          printed.add(frq)
         
     
+
