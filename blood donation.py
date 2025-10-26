@@ -1,5 +1,5 @@
-age=int(input("enter the age :")
-weight=int(inptut("enter the weight:")
+age=int(input("enter the age: ")
+weight=int(inptut("enter the weight: ")
 if age <=18 and age >=60:
      if weight>=50:
            print("you are eliglible for blood donation")
@@ -11,3 +11,4 @@ else:
            
            
         
+
