@@ -1,4 +1,4 @@
-long=['flower','fit','fluke']
+long=['flower','flutes',fit','fluke']
 long=sorted(long)
 f=long[0]
 l=long[-1]
@@ -10,4 +10,5 @@ for i in range(min(len(f),len(l))):
      else:
          break
         
+
 print(ans)     
